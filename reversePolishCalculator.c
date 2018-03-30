@@ -234,7 +234,7 @@ double pop(cell **t) {
 		return (double)INT_MIN;
 }
 
-//Recebe dois números de precisão double, e devolve o primeiro elevado ao piso do segundo
+//Receives two double values, and returns the first one raised to the second one's floor
 double power(double a, double b) {
 	double power = 1;
 	while (power < (int)b) {
@@ -251,8 +251,7 @@ double log(double a) {
 	//initializes the values
 	p = 0 ;
 	pot2 = 1 ; //2⁰
-	
-	//enquanto a power de 2 for menor que o número
+
 	while (pot2 <= (int)a) {
 		pot2 *= 2 ; //increases by two
 		p++ ; //increases the power
