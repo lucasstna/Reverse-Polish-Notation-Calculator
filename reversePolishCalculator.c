@@ -192,7 +192,7 @@ void insertOperator(cell **start, cell **end, char character[]) {
 	return;
 }
 
-//Receives a headless queue and removes it first elemment
+//Receives a headless queue and removes its first elemment
 cell* removeCell(cell **i, cell **f) {
 	cell *p;
 	p = (*i);
