@@ -1,7 +1,7 @@
 # Reverse-Polish-Notation-Calculator
   This is simple project, developed entirely in C and made by me as college work for the discipline of Algorithms and Programming II. The main purpose of the project is to implement a calculator that uses the [reverse-Polish notation](http://www.calculator.org/rpn.aspx) as entry source.
 
-## How does it works ?
+## How does it work ?
   The program was made to show the ability of working with linked **queues** and **stacks**. With that in mind, the input is stored in a queue and when the operations start to be done, the values are removed from the queue and tested. If the value removed is an operand, it gets pushed in a stack. If it's not, the most recent values in the stack are popped and the operation is done, according to the operand.
   
 ## How can you use it ?
